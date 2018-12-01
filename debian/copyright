@@ -1,0 +1,13 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: lattice-diamond
+Source: http://www.latticesemi.com/en/Products/DesignSoftwareAndIP/FPGAandLDS/LatticeDiamond#linux
+
+Files: *
+Copyright: 2018 Lattice Semiconductor
+License: Proprietary
+
+Files: debian/*
+Copyright: 2018 Jens Andersen <jens.andersen@gmail.com>
+License: GPL-3.0+
+
+License: Proprietary

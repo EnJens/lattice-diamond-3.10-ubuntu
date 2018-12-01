@@ -1,0 +1,19 @@
+Source: lattice-diamond
+Section: electronics
+Priority: extra
+Maintainer: Jens Andersen <rayman@unknown>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: http://www.latticesemi.com/en/Products/DesignSoftwareAndIP/FPGAandLDS/LatticeDiamond#linux
+
+Package: lattice-diamond
+Architecture: amd64
+Depends: ${shlibs:Depends} ${misc:Depends}
+Description: Lattice Diamond FPGA Design software
+ Exploring Design Alternatives Made Easy – Finding the best solutions for smaller devices often requires evaluating multiple solutions. Lattice Diamond allows easy exploration of alternate solutions without resorting to workarounds.
+ Easy to Use in Many Ways – Adapting to a new tool is hard. Lattice Diamond makes this easier by adapting to your style of working and by providing tools that make common tasks easier. No matter how you like to work, Lattice Diamond can adapt to your style.
+ Design Flow Tailored for Lattice Devices – Applications that use low-density and ultra low-density FPGAs require flexibility, verification, and the ability to iterate quickly. Lattice Diamond does this and more.
+ Features
+  * Complete GUI based FPGA design and verification environment
+  * Design exploration in a single project with multiple implementations and settings strategies
+  * Graphical environment for managing and navigating timing and power results
